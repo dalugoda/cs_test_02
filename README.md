@@ -9,6 +9,8 @@ To Run provide a directory path for the following constant.
 
 http://localhost:8080/api/location/getLast5/v1 (GET) [URL Param : v1==> vehicle id]
 
+### Assuming that last status will only be available in the memory (For performance issue)
+
 ## Update Location
 
 http://localhost:8080/api/location/update/v1 (POST) [URL Param : v1==> vehicle id]
